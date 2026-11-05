@@ -1,0 +1,33 @@
+{
+  "name": "opencode-stop-on-quit",
+  "version": "0.1.0",
+  "description": "OpenCode Desktop plugin that stops the shared background service when the desktop app exits.",
+  "type": "module",
+  "exports": {
+    "./gui-experimental": "./dist/gui-experimental.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "desktop",
+    "service",
+    "quit",
+    "cleanup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMody/opencode-stop-on-quit.git"
+  },
+  "homepage": "https://github.com/CodeMody/opencode-stop-on-quit#readme",
+  "bugs": {
+    "url": "https://github.com/CodeMody/opencode-stop-on-quit/issues"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
